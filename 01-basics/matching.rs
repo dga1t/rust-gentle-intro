@@ -23,10 +23,10 @@ let text = match n {
 };
 
 // Rust match statements can also match on ranges.
-// Note that these ranges have three dots and are inclusive ranges, so that the first condition would match 3.
+// In modern Rust, inclusive ranges are written as ..= instead of ...
 let text = match n {
-  0...3 => "small",
-  4...6 => "medium",
+  0..=3 => "small",
+  4..=6 => "medium",
   _ => "large",
 };
 
