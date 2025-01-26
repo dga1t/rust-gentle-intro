@@ -1,4 +1,14 @@
-[package]
-name = "gentle-intro"
-version = "0.1.0"
-authors = ["Alice <alice@omg.com>"]
+[workspace]
+members = [
+  "01-basics/hello",
+  "01-basics/function-types",
+  "01-basics/iterators",
+  "01-basics/matching",
+  "01-basics/reading-from-files",
+  "01-basics/strings",
+  "01-basics/vectors",
+  "01-basics/arrays-and-slices",
+  "01-basics/command-line-args",
+  "02-structs-enums-and-matching/tuples",
+  "02-structs-enums-and-matching/moveit-moveit"
+]
