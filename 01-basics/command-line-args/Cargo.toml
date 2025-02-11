@@ -1,0 +1,4 @@
+[package]
+name = "command-line-args"
+version = "0.1.0"
+authors = ["Alice <alice@omg.com>"]
