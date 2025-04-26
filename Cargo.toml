@@ -10,5 +10,6 @@ members = [
   "01-basics/arrays-and-slices",
   "01-basics/command-line-args",
   "02-structs-enums-and-matching/tuples",
-  "02-structs-enums-and-matching/move-it"
+  "02-structs-enums-and-matching/move-it",
+  "02-structs-enums-and-matching/structs",
 ]
